@@ -6,7 +6,7 @@ function isRoot() {
     return 1
   fi
 }
-
+$ git commit -m "First commit" #
 function tunAvailable() {
   if [ ! -e /dev/net/tun ]; then
     return 1
